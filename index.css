@@ -242,7 +242,6 @@ html, body {
     height: 40px;
     width: 180px;
     border-radius: 40px;
-    margin-bottom: 50px;
   }
   .b1:hover{
     color: black;
@@ -372,7 +371,6 @@ main3, .m5{
     height: 20px;
     width: 50px;
     border-radius: 40px;
-    margin-bottom: 50px;
   }
   .b1:hover{
     color: black;
