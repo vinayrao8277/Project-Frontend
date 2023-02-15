@@ -386,7 +386,6 @@ main3, .m5{
     margin-top: 20px;
   }
   main4, .img1{
-    position: ;
     height: 100px;
     box-shadow: -30px 44px 0px 2px blueviolet;
     align-items: start;
@@ -394,7 +393,7 @@ main3, .m5{
     right: 20px;
   }
   .r{
-    margin-top: 100px;
+    margin-top: 50px;
   }
   
   main4, .b2{
