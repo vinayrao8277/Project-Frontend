@@ -34,7 +34,7 @@ html, body {
   background-color: #00BAF0;
   background: linear-gradient(to left, #f46b45, #eea849);
   color: #FFF;
-  height: 60px;
+  height: 50px;
   padding: 1em;
   overflow: hidden;
 }
@@ -154,6 +154,14 @@ html, body {
     margin-top: 50px;
 
 }
+.pics{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 900px;
+  margin-top: 50px;
+}
 .card{
     display: flex;
     justify-content: center;
@@ -174,7 +182,7 @@ html, body {
 }
 .m2{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     margin-top: 50px;
     font-size: 20px;
@@ -273,6 +281,11 @@ main4, .b2{
   width: 180px;
   border-radius: 40px;
 }
+.p4{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .b2:hover{
  color: black;
@@ -289,6 +302,13 @@ main4, .b2{
 }
 
 
+
+
+
+
+
+
+
 @media(max-width:999px){
   html{
     font-size: 40%;
@@ -300,6 +320,14 @@ main4, .b2{
     margin-top: 20px;
 
 }
+.pics{
+  display: flexbox;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 400px;
+  margin-top: 50px;
+}
   .card{
     display: flex;
     justify-content: center;
@@ -310,6 +338,7 @@ main4, .b2{
     text-align: center;
     color: whitesmoke;
     align-items:center;
+    margin-left: 30px;
 }
 .e1{
   height: 20px;
@@ -325,7 +354,7 @@ main4, .b2{
   height: 100px;
 }
 .e2{
-  height: 30px;
+  height: 20px;
 }
 .m4{
   display: flex;
@@ -341,7 +370,7 @@ main4, .b2{
   background-color: rgb(5, 84, 255);
   color: white;
   font-size: 10px;
-  height: 100px;
+  height: 70px;
   margin-top: 20px;
 }
 .main2{
@@ -380,11 +409,15 @@ main3, .m5{
     justify-content: space-evenly;
     align-items: center;
     margin-top: 20px;
+    flex-direction: column;
+  }
+  .p1{
+    margin-top: 30px;
   }
   main4, .img1{
     height: 100px;
-    box-shadow: -30px 44px 0px 2px blueviolet;
-    align-items: start;
+    box-shadow: -30px 20px 0px 2px blueviolet;
+    align-items: center;
     position: static;
     right: 20px;
   }
@@ -400,7 +433,6 @@ main3, .m5{
     width: 50px;
     border-radius: 40px;
   }
-  
   .b2:hover{
    color: black;
     background-color: orange;
